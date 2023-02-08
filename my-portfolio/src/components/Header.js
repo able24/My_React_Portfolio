@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className= "container-fluid">
-      <h3>LOGO</h3>
+      <h2>abelEgbele</h2>
       <nav className = "navbar navbar-expand-lg">
         <NavLink to="/" className = "link">Home</NavLink>
         <NavLink to="/project" className = "link">Projects</NavLink>

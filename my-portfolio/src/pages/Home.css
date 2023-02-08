@@ -1,0 +1,43 @@
+/* Custom Styles */
+.intro {
+    display: flex;
+    margin-top: 5%;
+    height: 50%;
+
+}
+
+.brand {
+    margin-left: 2.5%;
+    
+}
+
+.brand h1 {
+    font-size: 60px;
+    margin-top: 3%;
+    color: #012b01;
+}
+
+.brand h4 {
+    color: #020281;
+    margin-top: 3%;
+}
+
+.brand p {
+    margin-top: 3%;
+}
+
+.brand button {
+    padding: 3%;
+    border-radius: 5px;
+    margin-top: 3%;
+    width: 30%;
+    background-color:#020281;
+    color: #fff;
+}
+.image img {
+    width: 50%;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 2.5%;
+
+}
