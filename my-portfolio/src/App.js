@@ -3,7 +3,6 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import ProjectGallery from './pages/ProjectGallery';
 import Contact from './pages/Contact';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,8 +14,6 @@ function App() {
       <Route path="/projectgallery" element = {<ProjectGallery />} />
       <Route path="/contact" element = {<Contact />} />
     </Routes>
-    
-    <Footer />
       
     </>
   );

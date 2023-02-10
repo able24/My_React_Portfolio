@@ -1,8 +1,10 @@
 /* Custom Styles */
 .intro {
     display: flex;
+    justify-content: center;
     margin-top: 5%;
     height: 50%;
+    width: 100%;
 
 }
 
@@ -29,15 +31,45 @@
 .brand button {
     padding: 3%;
     border-radius: 5px;
+    border: 1px solid #012b01;
     margin-top: 3%;
     width: 30%;
-    background-color:#020281;
-    color: #fff;
+    background: transparent;
+    color: #020281;
 }
-.image img {
-    width: 50%;
-    opacity: 0.8;
-    margin-left: 20%;
-    margin-right: 2.5%;
 
+
+.brand button:hover {
+    background: #020281;
+    color: #fff;
+    cursor: pointer;
+}
+
+.image img {
+    width: 60%;
+    opacity: 0.8;
+    margin-left: 38%;
+    margin-right: 2.5%;
+    padding: 5px;
+
+}
+
+.about {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    height: 35%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 17%;
+}
+
+
+.about h1 {
+    font-size: 40px;
+
+}
+
+.about p {
+   margin-top: 1%;
 }
