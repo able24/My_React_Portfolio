@@ -1,7 +1,12 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Picture from '../assets/Avatar1.jpg';
+import Button from 'react-bootstrap/Button';
 import './Home.css';
+
+const style = {
+  backgroundColor: "red"
+}
 
 function Home() {
   return (
@@ -14,7 +19,7 @@ function Home() {
         <h1>Abel Egbele</h1>
         <h4>SOFTWARE & FRONTEND DEVELOPER | NETWORK ENGINEER </h4>
         <p>I'm a professional software and frontend developer with IP networking skills based in the UK.</p>
-        <button href="#me">Find Out More</button>
+        <Button>Find Out More</Button>
       </div>
 
       <div className="image">
