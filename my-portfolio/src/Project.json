@@ -1,0 +1,50 @@
+
+[
+    {
+        "title": "Movie App",
+        "url": "https://able24.github.io/Movie-App/",
+        "github": "https://github.com/able24/Movie-App",
+        "image": "./gallery/movieApp.gif",
+        "alt": "Movie App"
+    },
+
+    {
+        "title": "Work Day Scheduler",
+        "url": "https://able24.github.io/Work_Day_Scheduler/",
+        "github": "https://github.com/able24/Work_Day_Scheduler",
+        "image": "./gallery/workScheduler.gif",
+        "alt": "Work Scheduler"
+    },
+
+    {
+        "title": "Team Profile Generator",
+        "url": "https://drive.google.com/file/d/1-ZBHQoJuDRd81DYejfKy4AeAc9Dcx8F7/view?usp=share_link",
+        "github": "https://github.com/able24/Team_Profile_Generator",
+        "image": "./gallery/teamGenerator.gif",
+        "alt": "Team Profile"
+    },
+
+    {
+        "title": "Weather Dashboard",
+        "url": "https://able24.github.io/Weather-Dashboard/",
+        "github": "https://github.com/able24/Weather-Dashboard",
+        "image": "./gallery/weatherDashboard.png",
+        "alt": "Weather App"
+    },
+
+    {
+        "title": "Readme Generator",
+        "url": "https://drive.google.com/file/d/1kYQpf30vYz4qkczfVoMLq6XVIKGx0xjs/view?usp=share_link",
+        "github": "https://github.com/able24/README_Generator",
+        "image": "./gallery/readMe.gif",
+        "alt": "Readme App"
+    },
+
+    {
+        "title": "Code Quiz",
+        "url": "https://able24.github.io/Code-Quiz/",
+        "github": "https://github.com/able24/Code-Quiz",
+        "image": "./gallery/codeQuiz.gif",
+        "alt": "Code Quiz"
+    }
+]

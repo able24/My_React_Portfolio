@@ -29,13 +29,14 @@
 }
 
 .brand button {
-    padding: 3%;
+    padding: 2%;
     border-radius: 5px;
     border: 1px solid #012b01;
     margin-top: 3%;
-    width: 30%;
+    width: 25%;
     background: transparent;
     color: #020281;
+    margin-left: 0;
 }
 
 
@@ -61,7 +62,7 @@
     height: 35%;
     width: 100%;
     padding: 10px;
-    margin-left: 17%;
+    margin-left: 18%;
 }
 
 
