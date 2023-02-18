@@ -46,12 +46,18 @@ Button {
     width: 20%;
     background: transparent;
     color: #020281;
-    margin-left: 2%;
+    margin-left: 2.5%;
 }
 
 Button:hover {
     background: #020281;
     color: #fff;
     cursor: pointer;
+}
+
+.success {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
 }
 
