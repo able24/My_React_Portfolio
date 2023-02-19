@@ -2,11 +2,14 @@ import { useState } from 'react';
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Linkedin from '../assets/linkedin.png';
+import Github from '../assets/github.png';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import './Contact.css';
+
 
 function Contact() {
 
@@ -69,6 +72,8 @@ function Contact() {
     <>
       <Header />
 
+      <div className="contact-items">
+
       <Form onSubmit={handleSubmit}>
         <h1>Contact Me</h1>
         <Form.Group className="mb-3" controlId="formBasicName">
@@ -125,8 +130,30 @@ function Contact() {
 
       {success && <p className='success'>Form Submitted Successfully!</p>}
 
+      <section>
+
+        <p>
+          You can also reach me through any of the following below:
+          </p>
+        <p>
+          Email: <a href='mailto:abledev93@gmail.com'>abledev93@gmail.com</a>
+        </p>
+        <p>
+          Linkedin: <a href="https://www.linkedin.com/in/abelegbele/">
+            <img src={Linkedin} width='30px' alt="linkedin icon" />
+          </a>
+        </p>
+        <p>
+          GitHub: <a href="https://github.com/able24">
+            <img src={Github} width='30px' alt="linkedin icon" />
+          </a>
+        </p>
+      </section>
+
 
       <Footer />
+
+      </div>
 
     </>
   );
