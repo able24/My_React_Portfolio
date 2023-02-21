@@ -17,7 +17,7 @@ const style = {
 
   img: {
     width: '300px',
-    height: '300px',
+    height: '250px',
     opacity: '0.9',
     border: 'solid 1px #020281',
     borderRadius: '7px',

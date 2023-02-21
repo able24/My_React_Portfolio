@@ -7,7 +7,9 @@ import Footer from '../components/Footer';
 
 const style = {
   div: {
-    margin: '2% 20%',
+    margin: '2%',
+    marginLeft: '15%',
+    marginRight: '25%',
     display: 'grid',
     gridTemplateColumns: 'auto auto auto',
     rowGap: '3%'
@@ -17,7 +19,7 @@ const style = {
   image: {
 
     width: '300px',
-    height: '200px',
+    height: '150px',
     borderBottom: 'solid 5px #020281',
 
   },
