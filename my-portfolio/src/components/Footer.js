@@ -5,9 +5,9 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <p><strong>&copy; Abel Egbele 2023</strong></p>
+      <p><strong>&copy; Abel 2023</strong></p>
       <p>
-        Email: <a href='mailto:abledev93@gmail.com'>abledev93@gmail.com</a>
+        E: <a href='mailto:abledev93@gmail.com'>abledev93@gmail.com</a>
       </p>
       <p>
         <a href="https://www.linkedin.com/in/abelegbele/" target='blank'>
