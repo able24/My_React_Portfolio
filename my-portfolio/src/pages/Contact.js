@@ -19,7 +19,6 @@ function Contact() {
     firstName: '',
     lastName: '',
     email: '',
-    phone: '',
     message: '',
     access_key: 'e60801c3-6aac-4656-8f05-556b65a184a0' /*used web3form for getting user inputs from form*/
   })
@@ -56,7 +55,6 @@ function Contact() {
           firstName: '',
           lastName: '',
           email: '',
-          phone: '',
           message: '',
         })
 
@@ -102,15 +100,6 @@ function Contact() {
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
           </Form.Text>
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicPhone">
-          <Form.Label>Phone Number</Form.Label>
-          <Form.Control name='phone'
-            value={formData.phone}
-            onChange={handleChange}
-            type="tel"
-            placeholder="123-45-678" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
