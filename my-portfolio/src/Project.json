@@ -5,7 +5,8 @@
         "url": "https://able24.github.io/Movie-App/",
         "github": "https://github.com/able24/Movie-App",
         "image": "./gallery/movieApp.gif",
-        "alt": "Movie App"
+        "alt": "Movie App",
+        "description": "An application that lets you search for movies by title. Powered by HTML, CSS and JQuery"
     },
 
     {
@@ -13,7 +14,8 @@
         "url": "https://able24.github.io/Work_Day_Scheduler/",
         "github": "https://github.com/able24/Work_Day_Scheduler",
         "image": "./gallery/workScheduler.gif",
-        "alt": "Work Scheduler"
+        "alt": "Work Scheduler",
+        "description": "This is a simple work scheduler application that allows a user to save events for each hour of the day."
     },
 
     {
@@ -21,7 +23,8 @@
         "url": "https://drive.google.com/file/d/1-ZBHQoJuDRd81DYejfKy4AeAc9Dcx8F7/view?usp=share_link",
         "github": "https://github.com/able24/Team_Profile_Generator",
         "image": "./gallery/teamGenerator.gif",
-        "alt": "Team Profile"
+        "alt": "Team Profile",
+        "description": "This app takes in information about employees on a team, then generates an HTML webpage summary for each person. "
     },
 
     {
@@ -29,7 +32,8 @@
         "url": "https://able24.github.io/Weather-Dashboard/",
         "github": "https://github.com/able24/Weather-Dashboard",
         "image": "./gallery/weatherDashboard.png",
-        "alt": "Weather App"
+        "alt": "Weather App",
+        "description": "A weather app that will run in the browser for giving local weather information for any city."
     },
 
     {
@@ -37,7 +41,8 @@
         "url": "https://drive.google.com/file/d/1kYQpf30vYz4qkczfVoMLq6XVIKGx0xjs/view?usp=share_link",
         "github": "https://github.com/able24/README_Generator",
         "image": "./gallery/readMe.gif",
-        "alt": "Readme App"
+        "alt": "Readme App",
+        "description": "This app can easily create a README file by using a command-line application in nodejs."
     },
 
     {
@@ -45,6 +50,7 @@
         "url": "https://able24.github.io/Code-Quiz/",
         "github": "https://github.com/able24/Code-Quiz",
         "image": "./gallery/codeQuiz.gif",
-        "alt": "Code Quiz"
+        "alt": "Code Quiz",
+        "description": "A timed quiz on JavaScript fundamentals that stores high scores to gauge my progress compared to my peers"
     }
 ]

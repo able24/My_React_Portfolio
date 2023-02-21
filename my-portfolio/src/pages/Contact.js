@@ -1,9 +1,9 @@
+/*Importing various packages*/
 import { useState } from 'react';
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Linkedin from '../assets/linkedin.png';
-import Github from '../assets/github.png';
+
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -21,14 +21,14 @@ function Contact() {
     email: '',
     phone: '',
     message: '',
-    access_key: 'e60801c3-6aac-4656-8f05-556b65a184a0'
+    access_key: 'e60801c3-6aac-4656-8f05-556b65a184a0' /*used web3form for getting user inputs from form*/
   })
 
   const handleChange = (event) => {
 
     setFormData({
       ...formData,
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value /*getting input from each part of the form*/
     });
 
   }
@@ -71,8 +71,6 @@ function Contact() {
   return (
     <>
       <Header />
-
-      <div className="contact-items">
 
       <Form onSubmit={handleSubmit}>
         <h1>Contact Me</h1>
@@ -123,38 +121,16 @@ function Contact() {
             as="textarea" rows={4} />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button className='btn' variant="primary" type="submit">
           Submit
         </Button>
       </Form>
 
-      {success && <p className='success'>Form Submitted Successfully!</p>}
-
-      <section>
-
-        <p>
-          You can also reach me through any of the following below:
-          </p>
-        <p>
-          Email: <a href='mailto:abledev93@gmail.com'>abledev93@gmail.com</a>
-        </p>
-        <p>
-          Linkedin: <a href="https://www.linkedin.com/in/abelegbele/">
-            <img src={Linkedin} width='30px' alt="linkedin icon" />
-          </a>
-        </p>
-        <p>
-          GitHub: <a href="https://github.com/able24">
-            <img src={Github} width='30px' alt="linkedin icon" />
-          </a>
-        </p>
-      </section>
+      {success && <p className='success'>Form Submitted Successfully!</p>}  {/*this appears at the bottom for 3s to confirm to users that form has been successfully submitted*/}
 
 
       <Footer />
-
-      </div>
-
+      
     </>
   );
 }

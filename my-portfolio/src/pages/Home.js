@@ -31,7 +31,11 @@ function Home() {
 
       <section className="about">
         <h1 id="me">About Me</h1>
-        <p>I am Abel Egbele, I live in England UK. I am a software/frontend developer with IP Networking skills.</p>
+        <p>I am Abel Egbele, I live in England UK. I am a software/frontend developer with IP Networking skills.<br></br>
+        I have hands on experience with the following technologies - HTML, CSS, JavaScript, JQuery, Bootstrap,<br></br>
+        Node js, React js and IP Networking. I have considerable number of years as a freelancer and I'm open to<br></br>
+        both freelancing, project-based, contract and permanent roles. You can use the contact section to reach out<br></br>
+        to me for more information.</p>
 
 
       </section>

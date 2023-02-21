@@ -60,7 +60,7 @@
     margin-top: 5%;
     flex-direction: column;
     height: 35%;
-    width: 100%;
+    width: auto;
     padding: 10px;
     margin-left: 18%;
 }
@@ -73,4 +73,22 @@
 
 .about p {
    margin-top: 1%;
+   line-height: 1.5rem;
+}
+
+/*Media query for smaller screens*/
+@media only screen and (max-width: 900px) {
+    .image img {
+        margin-left: 25%;
+        width: 70%;
+    }
+    
+    .about {
+        margin-left: 2.5%;
+    }
+
+    .btn {
+        margin-left: 5%;
+    }
+
 }
